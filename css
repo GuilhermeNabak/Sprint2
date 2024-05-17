@@ -1,0 +1,144 @@
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    background-color: #000000;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 150px;
+}
+
+header input {
+    width: calc(40% - 40px);
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(47, 47, 47, 0.8);
+    color: #FFFFFF;
+    text-align: center; 
+    margin: 0 auto; 
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1; 
+    padding-right: 150px;
+}
+
+main {
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.profile {
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.favoritos {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-left: 20px; 
+    margin-bottom: 180px; 
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+}
+
+.avatar img {
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #2F2F2F;
+}
+
+table tr {
+    cursor: pointer;
+}
+
+table tr:hover {
+    background-color: #333333;
+}
+
+.remove-button {
+    background-color: #9270DB;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.remove-button:hover {
+    background-color: #9270DB;
+}
+
+.all-movies {
+    width: 300px;
+    margin-left: 20px;
+    display: none;
+}
+
+.all-movies-list .movie-item {
+    width: 100%;
+    padding: 10px;
+    background-color: #2F2F2F;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.all-movies-list .movie-item:hover {
+    background-color: #333333;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
